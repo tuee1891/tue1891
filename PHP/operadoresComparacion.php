@@ -4,7 +4,7 @@ $y = 5;
 $z = 2;
 $a = 10;
 $b ="10";
-
+$c = "Milanesa"
 // creamos variable para ver comportamiento igualacion
 $varIgual1 = $y == $a;
 $varIgual2 = $x == $a;
@@ -22,6 +22,9 @@ $varDif4 = $x != $b;
 $varMayor1 = $y > $x;
 $varMayor2 = $y < $x;
 $varMayor3 = $x > $y;
+
+// comparamos que 
+
 
 ?>
 
