@@ -1,98 +1,128 @@
 
-Persona
-	* Nombres			varchar 50
-	* Apellidos			varchar 100
-	* Fecha Nacimiento	Date
-	* Documento			char 8
-	* Altura			float
-	* Sexo				enum (masculino, femenino,otros)
-	* Celular			tinyint
-	* Direccion			text
-	* Telefono			tinyint
+
+Persona 
+	* Nombres	        VARCHAR 50
+	* Apellidos         VARCHAR 100
+	* Fecha Nacimiento  DATE
+	* Documento			CHAR 8 
+	* Altura			FLOAT 
+	* Sexo				ENUM (MASCULINO, FEMENINO, OTROS)
+	* Celular			TINYINT 
+	* Direccion			TEXT
+	* Telefono			TINYINT
+	
 
 	
 	
-	
-	create table personas (
-	
-		nombre varchar (50),
-		apellidos varchar (100),
-		fecha_nacimiento date,
-		documento char (8),
-		altura float (10.2),
-		Sexo enum ('Masculino','Femenino', 'Otros'),
-		celular tinyint (10),
-		direcciones text,
-		telefono tinyint (10)
-	);
-	
-	SHOW TABLES;
-	
-	DROP TABLE personas;
-    
+CREATE TABLE personas(
+
+	nombre VARCHAR(50),
+	apellidos VARCHAR(100),
+	fechaNacimiento DATE,
+	documento CHAR(8),
+	altura FLOAT(10,2),
+	sexo ENUM('Masculino','Femenino','Otros'),
+	celular TINYINT(10),
+	direccion TEXT,
+	telefono TINYINT(10)
+
+);
 
 
-	---------------------------------------------------------------------------------------------------------
+SHOW TABLES;
+
+DROP TABLE personas;
+
+SELECT * FROM personas;
+
+
+
 
 	
+CREATE TABLE personas(
+
+	nombre VARCHAR(50),
+	apellidos VARCHAR(100),
+	fechaNacimiento DATE,
+	documento CHAR(8),
+	altura FLOAT(10,2),
+	sexo ENUM('Masculino','Femenino','Otros'),
+	celular TINYINT(10),
+	direccion TEXT,
+	telefono TINYINT(10)
+);
+
+DROP TABLE alumnos; 				
+
 CREATE TABLE alumnos(
-
-	documento varchar(20),
-	nombre varchar(50),
-	apellido varchar(50),
-	tipoDocumento enum("ci","pasaporte"),
-	fechaNacimiento date
+	
+	documento VARCHAR(20),
+	nombre VARCHAR(50),
+	apellidos VARCHAR(50),
+	tipoDocumento ENUM("CI", "Pasaporte"),
+	fechaNacimiento DATE,
 	PRIMARY KEY (documento)
-
+	
 );
 
 SELECT * FROM alumnos;
 
-INSERT INTO alumnos (documento,nombre,apellido,tipoDocumento,fechaNacimiento)
-values ("44559966","Damian","Delgado","ci","1989_09_10");	
+INSERT INTO alumnos (documento,nombre,apellidos,tipoDocumento,fechaNacimiento)
+VALUES ("44559966","Damian","Delgado","CI","1987-09-10");
 
-INSERT INTO alumnos (documento,nombre,apellido,tipoDocumento,fechaNacimiento)
-values ("33776655","Alfredo","Imperial","ci","1991_05_07");	
-	
+INSERT INTO alumnos (documento,nombre,apellidos,tipoDocumento,fechaNacimiento)
+VALUES ("556677","Alfredo","Imperial","CI","1985-06-15");
+
 INSERT alumnos SET
-	documento = "9988548",
-	nombre	  = "Javier",
-	apellido = "Matorrales",
+	documento 	= "9988548",
+	nombre		= "Javier",
+	apellidos	= "Matorrales",
 	tipoDocumento = "Pasaporte",
 	fechaNacimiento = "1900-01-15";
 
+INSERT alumnos SET
+	documento 	= "54354353",
+	nombre		= "Fabian",
+	apellidos	= "Casco",
+	tipoDocumento = "CI",
+	fechaNacimiento = "1900-01-15";
 
-INSERT INTO alumnos (documento,nombre,apellido,tipoDocumento,fechaNacimiento)
-values ("33776655","Alfredo","Imperial","ci","1991_05_07");	
+
+INSERT alumnos SET
+	documento 	= "64684546",
+	nombre		= "Javier",
+	apellidos	= "Matorrales",
+	tipoDocumento = "Pasaporte",
+	fechaNacimiento = "1900-01-15";
+
+INSERT alumnos SET
+	documento 	= "5432432",
+	nombre		= "Ines",
+	apellidos	= "Zamorano",
+	tipoDocumento = "Pasaporte",
+	fechaNacimiento = "1900-01-15";
+
+INSERT alumnos SET
+	documento 	= "5654784",
+	nombre		= "Maria",
+	apellidos	= "Perez",
+	tipoDocumento = "CI",
+	fechaNacimiento = "1900-01-15";
+
 
 DELETE FROM alumnos;
 
---33776655
-DELETE FROM  alumnos WHERE documento = "33776655" LIMIT 2;
+-- 44559966
 
-INSERT alumnos SET
-	documento = "34996652",
-	nombre	  = "Mario",
-	apellido = "Beledo",
-	tipoDocumento = "Pasaporte",
-	fechaNacimiento = "1990-02-11";
+DELETE FROM alumnos WHERE documento = "44559966";
 
-INSERT alumnos SET
-	documento = "4885895",
-	nombre	  = "Jose",
-	apellido = "Montoya",
-	tipoDocumento = "Pasaporte",
-	fechaNacimiento = "1996-11-15";
+DELETE FROM alumnos WHERE documento = "44559966" LIMIT 4;
 
 
-INSERT alumnos SET
-	documento = "49905967",
-	nombre	  = "Gaston",
-	apellido = "Morales",
-	tipoDocumento = "Pasaporte",
-	fechaNacimiento = "1900-01-15";
+SELECT * FROM alumnos;
 
+SELECT * FROM alumnos WHERE nombre = "DAMIAN";
 
-	
-	
-	
+SELECT * FROM alumnos WHERE apellidos = "Matorrales";
+
+SELECT * FROM alumnos WHERE tipoDocumento = "Pasaportesss";

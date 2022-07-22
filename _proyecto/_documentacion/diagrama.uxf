@@ -1,0 +1,82 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;757&lt;/x&gt;&lt;y&gt;614&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;tipoCurso&amp;gt;&amp;gt;
+
+--
+* nombre: varchar(100)
+* descripcion: text
+* id: int(5)
+
+--
+primary key : id
+id Autoincremental
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>543</x><y>449</y><w>60</w><h>110</h></coordinates><panel_attributes>Alumnos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>783</x><y>459</y><w>80</w><h>110</h></coordinates><panel_attributes>Profesores</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>663</x><y>269</y><w>120</w><h>100</h></coordinates><panel_attributes>Cursos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>933</x><y>249</y><w>120</w><h>100</h></coordinates><panel_attributes>Tipo Curso</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>613</x><y>349</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>743</x><y>359</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;10;70;100</additional_attributes></element><element><id>Relation</id><coordinates><x>773</x><y>299</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;20;160;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>459</y><w>100</w><h>30</h></coordinates><panel_attributes>Nombres</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>529</y><w>100</w><h>30</h></coordinates><panel_attributes>Apellidos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>589</y><w>100</w><h>30</h></coordinates><panel_attributes>Documento</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>469</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>499</y><w>90</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>549</y><w>90</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>367</x><y>649</y><w>200</w><h>30</h></coordinates><panel_attributes>tipoDocumento(ci o pasaporte)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>517</x><y>559</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>539</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>639</y><w>100</w><h>30</h></coordinates><panel_attributes>Fecha Nacimiento</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>833</x><y>499</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;20;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>959</x><y>499</y><w>100</w><h>30</h></coordinates><panel_attributes>Nombre</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>954</x><y>579</y><w>100</w><h>30</h></coordinates><panel_attributes>Apellido</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>857</x><y>549</y><w>120</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>787</x><y>619</y><w>100</w><h>30</h></coordinates><panel_attributes> fecha nacimiento</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>797</x><y>559</y><w>50</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>929</x><y>169</y><w>60</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;40;80</additional_attributes></element><element><id>Relation</id><coordinates><x>995</x><y>159</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>159</y><w>100</w><h>20</h></coordinates><panel_attributes>Nombre</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>987</x><y>149</y><w>100</w><h>20</h></coordinates><panel_attributes>Descripcion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>697</x><y>165</y><w>100</w><h>30</h></coordinates><panel_attributes>Año</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>627</x><y>195</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;80</additional_attributes></element><element><id>Relation</id><coordinates><x>737</x><y>185</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>20;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>265</y><w>100</w><h>30</h></coordinates><panel_attributes>curso,Alumnos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>285</y><w>70</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>50;70;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>577</x><y>345</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>375</y><w>50</w><h>90</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;70;30;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>307</x><y>749</y><w>270</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Alumno&gt;&gt;
+
+--
+* Nombres : varchar(50)
+* Apellios: varchar(50)
+* Documento: varchar(20)
+* tipoDocumento:Enum("ci","pasaporte")
+* fechaNacimiento: Date
+* estado TINYINT(1)
+
+--
+primary key : documento
+ 
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>177</x><y>699</y><w>1060</w><h>30</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>1040;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>617</x><y>741</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Profesor&gt;&gt;
+
+--
+* documento: varchar(20)
+* nombre: varchar(50)
+* apellidos : varchar(50)
+* fechaNacimiento: date
+* estado TINYINT(1)
+
+--
+primary key : documento</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>857</x><y>743</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;tipoCurso&gt;&gt;
+
+--
+* nombre: varchar(100)
+* descripcion: text
+* id: int(5)
+
+--
+primary key : id
+id Autoincremental
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>989</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Curos&gt;&gt;
+--
+* codigo : int(7)
+* año : year
+* idTipoCurso: int(5)
+* profesor: varchar(20)
+
+
+
+
+--
+primary key : codigo
+codigo Autoincremental
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>802</x><y>918</y><w>150</w><h>150</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;130;130;130;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>699</x><y>920</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>317</x><y>991</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;alumons_cursos&gt;&gt;
+
+--
+* documento: VARCHAR(20)
+* codigo: INT(7)
+
+--
+Prymary key documento,codigo
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>417</x><y>927</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>517</x><y>1065</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>557</x><y>175</y><w>100</w><h>30</h></coordinates><panel_attributes>Codigo</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>493</x><y>419</y><w>80</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>403</x><y>409</y><w>100</w><h>30</h></coordinates><panel_attributes>Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>851</x><y>439</y><w>130</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>961</x><y>439</y><w>100</w><h>30</h></coordinates><panel_attributes>Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>958</x><y>391</y><w>100</w><h>30</h></coordinates><panel_attributes>documento</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>838</x><y>401</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;60</additional_attributes></element><element><id>UMLActor</id><coordinates><x>315</x><y>229</y><w>100</w><h>110</h></coordinates><panel_attributes>administradores</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>381</x><y>149</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>371</x><y>129</y><w>100</w><h>30</h></coordinates><panel_attributes>nombre</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>251</x><y>129</y><w>100</w><h>30</h></coordinates><panel_attributes>mail</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>149</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;30;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>189</y><w>100</w><h>30</h></coordinates><panel_attributes>clave</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>199</y><w>120</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>259</y><w>100</w><h>30</h></coordinates><panel_attributes>estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>259</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1005</x><y>981</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;administradores&gt;&gt;
+
+--
+* id: INT(3)
+* nombre: VARCHAR(30)
+* mail: VARCHAR(50)
+* clave: VARCHAR(15)
+* estado: TINIINT(1)
+
+--
+primary key : id
+id Autoincremental
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>325</y><w>100</w><h>30</h></coordinates><panel_attributes>id</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>315</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;120;10</additional_attributes></element></diagram>

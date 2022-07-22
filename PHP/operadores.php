@@ -1,17 +1,18 @@
-<?php
+<?PHP
+
 $x = 10;
 $y = 5;
 $z = 2;
-// realizamos suma de $x +$y
+// Se realiza la suma de $x + $y
 $suma = $x + $y;
-// aca realizo la resta de $y - $z
+// Aca realizao la resta de $y - $z
 $resta = $y - $z;
-// realizamos multiplicacion de $x *$z
-$Multiplicacion = $x * $z;
-// relizamos division
- $division = $ / $ ;
- // realizamos division faltoooo
-$
+// Realizamos la multiplicacion de $x * $z
+$multiplicacion = $x * $z;
+// Realizamos la division
+$division = $x / $z;
+// Realizamos el modulo de una division
+$modulo = $y % $z;
 
 ?>
 
@@ -19,11 +20,12 @@ $
     <head>
     </head>
     <body>
-        <h1>Operadores</h1>    
+        <h1>Operadores</h1>
         <h3>Resultado Suma:<?=$suma?></h3>
         <h3>Resultado Resta:<?=$resta?></h3>
-        <h3>Resultado multiplicacion:<?=$multiplicacion></h3>
-        <h3>Resultado division:<?=$division></h3>
+        <h3>Resultado Multiplicacion:<?=$multiplicacion?></h3>
+        <h3>Resultado Division:<?=$division?></h3>
+        <h3>Resultado Modulo:<?=$modulo?></h3>
     </body>
 </html>
 
